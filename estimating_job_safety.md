@@ -10,7 +10,7 @@ geometry: margin=1in
 fontsize: 11pt
 ---
 
-### Motivation and Scope
+# Motivation and Scope
 
 The integration of Artificial Intelligence (AI) into the global economy represents a paradigm shift in labor dynamics. While previous waves of automation primarily impacted manual labor, current progress in generative AI and reasoning models targets cognitive processing—the act of thinking itself. As cognitive tasks are increasingly delegated to AI systems, many activities dependent on these skills may face economic obsolescence as automated alternatives become significantly more cost-effective than human labor. This transition introduces profound uncertainty into labor markets, threatening the income stability of millions of professionals. Systematically analyzing and categorizing occupations is essential to mitigating transition risks and informing strategic career orientation.
 
@@ -18,13 +18,13 @@ To address these challenges, this paper proposes a structured forecasting framew
 
 The ultimate objective of this methodology is to provide a rational, evidence-based classification of occupations into four Risk Timeline Categories. By moving beyond speculative fear and into structured estimation, this framework allows individuals and policymakers to assess occupational safety with greater precision.
 
-### Related Work
+# Related Work
 
-The systematic assessment of labor displacement by technology has evolved from broad occupational analysis to more granular, task-based frameworks. Frey and Osborne (2017) famously identified "engineering bottlenecks"—such as social intelligence and complex perception—that limit the immediate reach of automation. Similarly, Brynjolfsson et al. (2018) proposed a "Suitability for Machine Learning" (SML) rubric, arguing that while few occupations are fully automatable, most consist of tasks with varying degrees of AI vulnerability.
+The systematic assessment of labor displacement by technology has evolved from broad occupational analysis to more granular, task-based frameworks. Frey and Osborne (2017) famously identified "engineering bottlenecks" - such as social intelligence and complex perception - that limit the immediate reach of automation. Similarly, Brynjolfsson et al. (2018) proposed a "Suitability for Machine Learning" (SML) rubric, arguing that while few occupations are fully automatable, most consist of tasks with varying degrees of AI vulnerability.
 
-From an economic perspective, Acemoglu and Restrepo (2019) emphasize that the risk to labor is driven by the "displacement effect," where capital-intensive technology replaces human tasks, balanced against a "productivity effect" that can create new roles. Current market data from the World Economic Forum (2025) suggests that as generative AI matures, high-wage cognitive roles—previously considered safe—are experiencing accelerated exposure. This paper builds upon these foundations by proposing a weighted scoring model that combines these technical bottlenecks with socio-economic adoption factors.
+From an economic perspective, Acemoglu and Restrepo (2019) emphasize that the risk to labor is driven by the "displacement effect," where capital-intensive technology replaces human tasks, balanced against a "productivity effect" that can create new roles. Current market data from the World Economic Forum (2025) suggests that as generative AI matures, high-wage cognitive roles - previously considered safe - are experiencing accelerated exposure. This paper builds upon these foundations by proposing a weighted scoring model that combines these technical bottlenecks with socio-economic adoption factors.
 
-### The Methodology
+# The Methodology
 
 Any job can be decomposed based on these fundamental dimensions of required human capabilities:
 
@@ -40,17 +40,18 @@ After decomposing the job under scrutiny, we score each dimension based on how r
 
 Then we can apply the weighted job vulnerability formula, where higher scores indicate greater resilience against AI disruption:
 
-$$Job\ AI\ Resilience\ Score = \sum_{i} (Component\ Weight_i \times Human\ Advantage\ Score_i)$$
+$$Job\ AI\ Resilience\ Score = \sum_{i} (Component\ Weight_i \times Human\ Advantage\ Score_i).$$
 
+\clearpage
 Humans advance their art during their years in a profession. To account for tacit knowledge, we distinguish among beginner, advanced and master level based on experience by applying -1, 0 and +1 modifiers. With this we try to capture the fact that jobs of more skilled, experienced professionals are less vulnerable to AI than jobs at the beginner level.
 
-We use this score to classify jobs into risk timeline categories of *immediate risk*, *medium term risk*, *long term safety* and *very low risk* (probably indefinite safety).
+We use this score to classify jobs into risk timeline categories of **immediate risk**, **medium term risk**, **long term safety** and **very low risk** (probably indefinite safety).
 
 Finally, we modify the result based on four important adoption factors: first, for companies there is a higher incentive to replace workers with higher wages to cut costs, second, for some activities replacing humans with machines can have non-economical benefits - for example reducing risk of harm -, third, some development (particularly robots) can be prohibitively costly, and fourth, there are jobs (especially where something is “performed” in a broad sense) where most humans inherently prefer to see humans.
 
-### Application of the Analysis Framework
+# Application of the Analysis Framework
 
-#### 1. Job Composition (Total 100%)
+## 1. Job Composition (Total 100%)
 
 Quickly estimate the percentage breakdown of:
 
@@ -60,7 +61,7 @@ Quickly estimate the percentage breakdown of:
 * **Perception** (seeing, hearing, feeling): _____%
 * **Adaptation** (handling changing environments): _____%
 
-#### 2. Human Advantage Score (1-10 for each component)
+## 2. Human Advantage Score (1-10 for each component)
 
 For each component, take into account the job specific activities, and score how much advantage humans have:
 
@@ -68,20 +69,20 @@ For each component, take into account the job specific activities, and score how
 * **4-6**: AI partially capable but significant gaps
 * **7-10**: AI struggles significantly
 
-#### 3. Calculate Job Resilience Score
+## 3. Calculate Job Resilience Score
 
 * Multiply each component's percentage by its Human Advantage Score
 * Add them together for a weighted total out of 10
 * Apply experience modifier: Beginner (-1), Advanced (0), Master (+1)
 
-#### 4. Interpret Results
+## 4. Interpret Results
 
 * **Below 4**: High Risk (machines are overtaking the job in 1-5 years)
 * **4-6**: Medium Risk (5-10 years)
 * **Above 6**: Low Risk (10+ years)
 * **Above 8**: Very Low Risk (15+ years or indefinite human advantage)
 
-#### 5. Adoption Factors Check
+## 5. Adoption Factors Check
 
 Ask these questions:
 
@@ -93,9 +94,9 @@ Ask these questions:
 If any of the answer to questions 1 or 2 is "yes," move the job up one risk level.  \
 If any of the answer to questions 3 or 4 is "yes," move the job down one risk level.
 
-### Three Examples
+# Three Examples
 
-#### Construction Worker
+## Construction Worker
 
 **1. Job Composition**
 
@@ -124,7 +125,7 @@ If any of the answer to questions 3 or 4 is "yes," move the job down one risk le
 
 **5. Adoption Factors Check:** Safety benefits beyond cost savings might increase risk level slightly, but construction work still remains in the low risk category.
 
-#### Software Developer
+## Software Developer
 
 **1. Job Composition**
 
@@ -157,7 +158,7 @@ If any of the answer to questions 3 or 4 is "yes," move the job down one risk le
 
 **5. Adoption Factors Check: **High salaries justify AI replacement, potentially moving advanced developers toward High Risk, while master developers with stronger stakeholder relationships remain in Medium Risk**.**
 
-#### Dentist
+## Dentist
 
 **1. Job Composition**
 
@@ -190,7 +191,7 @@ If any of the answer to questions 3 or 4 is "yes," move the job down one risk le
 
 **5. Adoption Factors Check:** High salaries might justify automation investment (risk up), but implementation costs for robotic dentistry would be extremely high, and many patients are likely to prefer humans (risk down). These factors cancel each other out, keeping dentistry in the Low to Very Low Risk category.
 
-### Conclusion and Future Outlook
+# Conclusion and Future Outlook
 
 This framework provides an immediate, structured, systematic method to transition from speculative anxiety to rational assessment of occupational risk. By decomposing occupations into core dimensions, applying weighted resilience scores, and accounting for economic and social adoption factors, individuals and policymakers can evaluate job security in real-time.
 
@@ -198,14 +199,14 @@ However, as a forecasting model, this tool is inherently iterative. While curren
 
 This methodology provides a systematic starting point for individuals and policymakers to assess occupational safety. I encourage readers to apply this framework to their own professional trajectories and contribute to the ongoing refinement of these estimations as we navigate this transition.
 
-### Acknowledgments
+# Acknowledgments
 
 The author acknowledges the use of various Claude and Gemini models for structural brainstorming and linguistic refinement.
 
-### References
+# References
 
 1. Acemoglu, D., & Restrepo, P. (2019). "Automation and New Tasks: How Technology Displaces and Reinstates Labor." Journal of Economic Perspectives, 33(2), 3–30.
-2. Brynjolfsson, E., & Mitchell, T. (2017). "What can machines learn, and what does it mean for occupations and the economy?" *Science*, 358(6370), 1530-1534.
+2. Brynjolfsson, E., & Mitchell, T. (2017). "What can machine learning do? Workforce implications" *Science*, 358(6370), 1530-1534.
 3. Frey, C. B., & Osborne, M. A. (2017). "The future of employment: How susceptible are jobs to computerisation?" *Technological Forecasting and Social Change*, 114, 254-280.
 4. World Economic Forum. (2025). "The Future of Jobs Report 2025."
 
