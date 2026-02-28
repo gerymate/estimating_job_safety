@@ -202,7 +202,7 @@ This methodology provides a systematic starting point for individuals and policy
 
 # Acknowledgments
 
-The author acknowledges the use of various Claude and Gemini models for structural brainstorming and linguistic refinement.
+The author acknowledges the use of various Claude and Gemini models for structural brainstorming and linguistic refinement. This paper is based on my project work for the 2025 spring AI Safety, Ethics and Society course at the Center for AI Safety.
 
 # References
 
