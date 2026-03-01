@@ -2,7 +2,6 @@
 title: "Job Security in the Age of AI: A Structured Forecasting Approach"
 author: 'Gergely Máté \orcidlink{0009-0003-6124-5415}'
 header-includes:
-  - \pdfoutput=1
   - \usepackage{orcidlink}
 date: "February 2026"
 abstract: |
