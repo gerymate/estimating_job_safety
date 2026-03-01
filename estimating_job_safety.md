@@ -6,6 +6,7 @@ header-includes:
 date: "February 2026"
 abstract: |
   As Artificial Intelligence (AI) capabilities advance in cognitive and sensory domains, the landscape of global labor markets faces significant uncertainty. This paper proposes a structured forecasting framework to estimate job resilience by decomposing occupations into five core dimensions: cognitive processing, physical execution, social interaction, sensory perception, and environmental adaptability. By applying a weighted 'Human Advantage Score' and accounting for economic adoption factors, the model provides a systematic method for quantifying occupational safety. We demonstrate the utility of this framework through case studies of construction, software development, and dentistry, offering a rational basis for career orientation and policy planning in the AI transition era.
+  \vfill \hfill \tiny Cite as: Máté, G. (2026). Job Security in the Age of AI. DOI: 10.5281/zenodo.18821831
 geometry: margin=1in
 fontsize: 11pt
 ---
@@ -53,7 +54,7 @@ Finally, we modify the result based on four important adoption factors: first, f
 
 ## 1. Job Composition (Total 100%)
 
-Quickly estimate the percentage breakdown of:
+Estimate the percentage breakdown of:
 
 * **Thinking** (analysis, planning, creativity): _____%
 * **Physical** (movement, dexterity, strength): _____%
