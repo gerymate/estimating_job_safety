@@ -1,0 +1,120 @@
+\pdfoutput=1
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+  11pt,
+]{article}
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage[]{natbib}
+\bibliographystyle{plainnat}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Example 1 - Construction Worker},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Example 1 - Construction Worker}
+\author{}
+\date{May 2025}
+
+\begin{document}
+\maketitle
+
+\subsection{Construction Worker}\label{construction-worker}
+
+\textbf{1. Job Composition}
+
+\begin{itemize}
+\tightlist
+\item
+  Thinking: 15\% (problem-solving, basic planning)
+\item
+  Physical: 50\% (lifting, operating machinery, manual labor)
+\item
+  Social: 10\% (team coordination)
+\item
+  Perception: 15\% (spatial awareness, hazard detection)
+\item
+  Adaptation: 10\% (responding to changing site conditions)
+\end{itemize}
+
+\textbf{2. Human Advantage Score}
+
+\begin{itemize}
+\tightlist
+\item
+  Thinking: 4/10 (AI can handle basic plans but struggles with on-site
+  decisions)
+\item
+  Physical: 8/10 (robots still struggle with construction-site mobility
+  and strength)
+\item
+  Social: 6/10 (limited real-time team coordination capabilities)
+\item
+  Perception: 7/10 (computer vision struggles in unstructured
+  environments)
+\item
+  Adaptation: 9/10 (significant challenges with unpredictable
+  environments)
+\end{itemize}
+
+\textbf{3. Job Resilience Score}
+
+\begin{itemize}
+\tightlist
+\item
+  Total: 7.15/10
+\item
+  Beginner: 6.15 (7.15-1)
+\item
+  Advanced: 7.15
+\item
+  Master: 8.15 (7.15+1)
+\end{itemize}
+
+\textbf{4. Result: Low to Very Low Risk} (10-15+ years)
+
+\textbf{5. Adoption Factors Check:} Safety benefits beyond cost savings
+might increase risk level slightly, but construction work still remains
+in the low risk category.
+
+\end{document}

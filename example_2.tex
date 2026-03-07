@@ -1,0 +1,128 @@
+\pdfoutput=1
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+  11pt,
+]{article}
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage[]{natbib}
+\bibliographystyle{plainnat}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Example 2 - Software Developer},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Example 2 - Software Developer}
+\author{}
+\date{May 2025}
+
+\begin{document}
+\maketitle
+
+\subsection{Software Developer}\label{software-developer}
+
+\textbf{1. Job Composition}
+
+\begin{itemize}
+\tightlist
+\item
+  Thinking: 60\% (coding, problem-solving, design)
+\item
+  Physical: 5\% (typing, basic computer interaction)
+\item
+  Social: 20\% (stakeholder communication, requirements gathering)
+\item
+  Perception: 10\% (code review, testing)
+\item
+  Adaptation: 5\% (handling changing requirements)
+\end{itemize}
+
+\textbf{2. Human Advantage Score}
+
+\begin{itemize}
+\tightlist
+\item
+  Thinking: 4/10 (good at code generation but struggles with
+  larger-scale planning)
+\item
+  Physical: 1/10 (AI doesn't need physical interaction to code)
+\item
+  Social: 5/10 (struggles with nuanced stakeholder management)
+\item
+  Perception: 4/10 (effective at code analysis)
+\item
+  Adaptation: 4/10 (can adapt to changes but misses context)
+\end{itemize}
+
+\textbf{3. Job Resilience Score}
+
+\begin{itemize}
+\tightlist
+\item
+  Total: 4.05/10
+\item
+  Beginner: 3.05 (4.05-1)
+\item
+  Advanced: 4.05
+\item
+  Master: 5.05 (4.05+1)
+\end{itemize}
+
+\textbf{4. Result:}
+
+\begin{itemize}
+\tightlist
+\item
+  Beginner: High Risk (1-5 years)
+\item
+  Advanced: Medium Risk (5-10 years)
+\item
+  Master: Medium Risk (5-10 years)
+\end{itemize}
+
+\textbf{5. Adoption Factors Check: }High salaries justify AI
+replacement, potentially moving advanced developers toward High Risk,
+while master developers with stronger stakeholder relationships remain
+in Medium Risk\textbf{.}
+
+\end{document}
